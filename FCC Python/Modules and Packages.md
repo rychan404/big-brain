@@ -42,7 +42,28 @@ re
 `re.findall(pattern, '')`
 - same as `re.search('')` but all occurrences
 
-char class
+### Char Class
+
 - matches 1 char specified b/w brackets
 - ex: `ma[dnt]` matches either mad, man, or mat
 
+- indicate range with hyphen (-)
+- ex: `[a-z]t` matches with at, bt, ct, etc.
+
+- ^ matches all chars except specified in class
+- ex: `[^a-z]t` matches with only ' t'
+
+- dot char (.): matches any char in string except newline char
+- ex: `'.+'`
+
+- match special meaning chars using escape chars (backslash)
+- ex: `'\+'`
+
+- `\d` = `[0-9]`
+
+- 
+### Raw Strings
+
+- backslashes are treated as real chars, not escape chars
+- prefix w/ r
+- ex: `print(r'\')`

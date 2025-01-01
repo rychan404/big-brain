@@ -41,3 +41,8 @@ re
 
 `re.findall(pattern, '')`
 - same as `re.search('')` but all occurrences
+
+char class
+- matches 1 char specified b/w brackets
+- ex: `ma[dnt]` matches either mad, man, or mat
+

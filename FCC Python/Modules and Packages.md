@@ -61,7 +61,6 @@ re
 
 - `\d` = `[0-9]`
 
-- 
 ### Raw Strings
 
 - backslashes are treated as real chars, not escape chars

@@ -93,8 +93,8 @@ span = [i * 2 if i > 0 else -1 for i in iterable] # optional filter with if/else
 Syntax
 
 ```python
-#             key   value        pairs
-my_dict = {'amount':50.0, 'category':'Food'}
+#             key    value        pairs
+my_dict = {'amount': 50.0, 'category': 'Food'}
 ```
 
 Access value through keys
@@ -103,3 +103,55 @@ Access value through keys
 print(my_dict[amount]) # prints 50.0
 ```
 
+Add a new key-value pair to dictionary
+
+```python
+my_dict['age'] = 2
+```
+
+Change key-value pair of dictionary
+
+```python
+my_dict['amount'] = 25.0
+```
+
+Iterate over keys
+
+```python
+for i in my_dict:
+	pass
+```
+
+Iterate over values
+- use `my_dict.values()`
+
+```python
+for i in my_dict.values():
+	pass
+```
+
+Iterate over key-value pairs
+- use `my_dict.items()`
+- stores each pair in tuples
+
+```python
+for i in my_dict.items():
+	pass
+```
+
+Iterate over elements in key-value pairs
+- use 2nd loop var
+
+```python
+for i, j in my_dict.items():
+	pass
+```
+
+`del my_dict['key']`
+- removes key-value pair
+
+## Generator Expressions
+
+- similar to list comprehension, but saves the memory
+- list comprehension deletes old list, but generator expressions save it
+- uses parentheses instead of brackets

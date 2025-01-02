@@ -7,6 +7,12 @@ python modules
 - access utilities thru dot notation
 - ex: `string.ascii_lowercase()`
 
+```python
+# Prevent code from running when imported as module
+if __name__ == '__main__':
+	pass
+```
+
 ## Random
 
 `random.random()`
@@ -50,8 +56,11 @@ re
 - indicate range with hyphen (-)
 - ex: `[a-z]t` matches with at, bt, ct, etc.
 
-- ^ matches all chars except specified in class
+- ^ matches all chars except specified in class (like a not)
 - ex: `[^a-z]t` matches with only ' t'
+
+- combine multiple ranges
+- ex: `[a-d3-6]` is the same as combining `[a-d]` & `[3-6]`
 
 - dot char (.): matches any char in string except newline char
 - ex: `'.+'`
@@ -60,7 +69,9 @@ re
 - ex: `'\+'`
 
 - `\d` = `[0-9]`
-
+- `\D` = `[^0-9]`
+- `\w` = alphanumeric chars & underscore
+- `\W` = non-alphanumeric chars & underscore
 ### Raw Strings
 
 - backslashes are treated as real chars, not escape chars

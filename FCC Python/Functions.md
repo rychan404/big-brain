@@ -9,6 +9,15 @@
 `function_name()`
 - call func
 
+keyword arguments
+- explicitly show what value is assigned to parameter
+
+```python
+def add(x, y):
+	return x + y
+
+add(x=1, y=7) # 8
+```
 ## Lambda
 
 `lambda x: expr`
@@ -25,4 +34,8 @@
 - select items based on func output
 - ex: elements of list when func is True
 
+## All
 
+`all()`
+- returns True if all elements evaluate to True
+- else return False

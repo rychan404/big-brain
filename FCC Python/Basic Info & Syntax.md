@@ -9,6 +9,7 @@
 - takes user input & returns a str
 
 `print('')`
+- commas can be used for concatenation 
 
 ## Basic Symbols
 
@@ -28,3 +29,8 @@ Quotes
 print('I\'m') # prints I'm
 print("I'm") # prints I'm
 ```
+
+## Mutability
+
+- Immutable: ints, strings, tuples, booleans
+- Mutable: lists, dicts

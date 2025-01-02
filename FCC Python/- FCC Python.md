@@ -1,4 +1,4 @@
-[[Basic Syntax]]
+[[Basic Info & Syntax]]
 [[Variables & Data Types]]
 [[Control Flow]]
 [[Data Structures]]

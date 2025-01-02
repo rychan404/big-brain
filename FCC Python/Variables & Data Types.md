@@ -16,10 +16,14 @@ type('foo') # returns <class 'str'>
 
 `float()` 
 - converts str/int to float
+- `float('inf')`
+	- represents positive infinity
 
 `int()`
 - converts to int
 
+`list()`
+- converts to list from iterable
 ## Integers
 
 `abs()` 

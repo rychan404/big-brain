@@ -35,6 +35,9 @@ type('foo') # returns <class 'str'>
 `max(1, 2, 3)` 
 - returns largest input value
 
+`min(1, 2, 3)`
+- returns smallest input value
+
 
 
 

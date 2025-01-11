@@ -19,6 +19,7 @@ None
 not
 // # integer division (quotient of division rounded down to nearest int)
 pass # placeholder for future code
+continue # skip current loop iteration & move on to next one
 ```
 
 ### Escape Characters

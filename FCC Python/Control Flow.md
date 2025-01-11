@@ -7,6 +7,10 @@
 
 `else:`
 
+ternary syntax
+- concise way to write if/else conditionals
+- ex: `val_1 if condition else val_2`
+
 Difference between `is` and `==`
 - ``is`` - check if 2 variables point to same object in memory
 - `==` - check if 2 variables have the same value

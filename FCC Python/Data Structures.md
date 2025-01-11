@@ -83,6 +83,25 @@ span = [i * 2 if i > 0 else -1 for i in iterable] # optional filter with if/else
 	_     =optional (default: 0)                 = optional (default: 1)
 - generate sequence of nums from start to stop every step
 
+`list1.extend(list2)`
+- add elements from iterable to end of list
+
+```python
+my_list = ['larch', 'birch']
+tree_list = ['fir', 'redwood', 'pine']
+my_list.extend(tree_list)
+print(my_list) # Output: ['larch', 'birch', 'fir', 'redwood', 'pine']
+```
+
+`list.remove()`
+- removes from list the 1st matching element passed as argument
+
+```python
+my_list = ['larch', 1, True, 1]
+my_list.remove(1)
+print(my_list) # Output: ['larch', True, 1]
+```
+
 ## Tuples
 
 - like lists but immutable (unable to be changed)
@@ -150,6 +169,15 @@ for i, j in my_dict.items():
 `del my_dict['key']`
 - removes key-value pair
 
+dictionary comprehension
+
+```python
+{key: val for key in dict}
+{key: val_1 if condition else val_2 for key in dict}
+```
+
+`dict.get(key, default_value)`
+- retrieve value associated w/ key
 ## Generator Expressions
 
 - similar to list comprehension, but saves the memory

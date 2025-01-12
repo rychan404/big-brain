@@ -82,6 +82,7 @@ span = [i * 2 if i > 0 else -1 for i in iterable] # optional filter with if/else
 	start=inclusive, stop=exclusive, step=inclusive
 	_     =optional (default: 0)                 = optional (default: 1)
 - generate sequence of nums from start to stop every step
+- convert to list by using `list()`
 
 `list1.extend(list2)`
 - add elements from iterable to end of list

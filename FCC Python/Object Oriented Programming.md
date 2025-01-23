@@ -22,4 +22,13 @@ Instantiate an object to customized state
 ```python
 def __init__(self):
 	pass
+	
+def __init__(self, board): # example
+	self.board = board
+```
+
+Dot notation to access instance variable
+
+```python
+print(gameboard.board)
 ```

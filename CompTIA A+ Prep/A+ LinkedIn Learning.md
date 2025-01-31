@@ -269,3 +269,14 @@ DDR4 speeds
 ![[Pasted image 20250131155639.png]]
 MT/s = mega transfers per second (not clicks of clock
 
+### RAM Capacity
+
+- Doubled-sided RAM
+	- Few motherboards don't use it
+- Channel
+	- Slot to place RAM
+	- Dual channel
+		- Must put 2 identical sticks of RAM for a channel
+	- Triple channel
+	- Single-channel mode
+		- Not taking advantage of motherboard's power

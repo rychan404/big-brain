@@ -228,3 +228,15 @@
 	- Provide better thermal conductivity b/w CPU & heat sink
 - Liquid cooling
 	- Higher thermal transfer capabilities than air-cooling
+
+### Installing & Troubleshooting a CPU
+
+- Use ESD (electrostatic discharge) protection
+- Handle components carefully (don't touch pins)
+- Intel CPUs use Land Grid Array (LGA)
+- AMD CPUs use Pin Grid Array (PGA)
+- Zero-insertion force (ZIF) socket
+	- Secure CPU into motherboard socket
+- Troubleshoot non-functional CPU
+	- Check connections
+	- Make sure fan, heat sink, & CPU are sealed properly

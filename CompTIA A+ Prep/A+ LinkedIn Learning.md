@@ -143,3 +143,29 @@
 		- Integer math
 		- Long numbers
 		- Cache (send to other places)
+
+### Modern CPUs
+
+- CPU capability based on clock speed & cores
+- Clock speed
+	- Measure speed through Hz (1 cycle per second)
+		- Megahertz (MHz) = 1mil. cycles/second
+		- Gigahertz (GHz) = 1 bil. cycles/second
+- CPU cores
+	- Multiple processors on 1 chip
+	- Single-core
+		- 1 connection where data can travel from CPU to RAM
+	- Multi-core
+		- Multiple connections where data can travel from CPU to RAM
+	- Dual core
+		- 2 connections where data can travel from CPU to RAM
+	- Quad core
+		- 4 connections where data can travel from CPU to RAM
+- ARM chips
+	- Cut back & simplified instructions (Reduced Instruction Set Computing)
+	- High processing speed & reduced workload
+- APU (Accelerated Processing Unit)
+	- CPU & graphics card combined
+	- Save space
+- CPU-Z
+	- Overview of hardware

@@ -194,3 +194,23 @@
 	- Some CPUs are unlocked & can be overclocked
 - How long do you want the system to last?
 
+### CPU Generations & Architecture
+
+- Nomenclature
+	- Brand      Tier   Generation  Model  Suffix
+	- **Intel     Core i9    12             900       K**
+		- Intel Core i9 12th generation Model 9
+- Tier
+	- Higher = better performance (more Hz)
+- Generation
+	- CPU's age
+- Model
+	- CPU performance
+- Suffix
+	- Denotes CPU is unlocked or has integrated graphics
+	- Intel
+		- K: unlocked & can be overclocked
+		- F: no integrated graphics
+	- AMD
+		- X: base clock speed is higher
+		- G: includes integrated graphics

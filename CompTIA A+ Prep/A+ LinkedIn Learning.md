@@ -99,3 +99,24 @@
 - Expansion slot
 	- Can have extra USB ports
 - Unique coloring enables easy identification of generation
+
+### What is a computer?
+
+- Used to get stuff done
+- Anything w/ CPU, RAM mass storage, & operating system
+- CPUs
+	- Brain of computer
+- Programs 
+	- Processor uses to manipulate peripherals & create files to get stuff done
+- Mass storage
+	- Where programs sit
+	- Stores programs & data
+	- M.2 SSD (Solid State Drive)
+		- Hard drive
+		- Stores data statically
+	- CPU copies program onto RAM & runs program
+	- Saving data copies from RAM to mass storage
+- Operating systems
+- Laptops, mobile devices & Internet of Things (IoT) are computers
+	- Raspberry Pi
+		- Tiny computer

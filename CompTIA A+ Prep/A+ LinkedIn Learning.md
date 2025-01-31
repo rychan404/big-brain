@@ -280,3 +280,14 @@ MT/s = mega transfers per second (not clicks of clock
 	- Triple channel
 	- Single-channel mode
 		- Not taking advantage of motherboard's power
+
+### RAM Features
+
+- Parity vs. error correction code (ECC)
+	- Extra chips to check for RAM errors
+	- ECC only supported by specific motherboards
+- Small outline dual inline memory module (SO-DIMM)
+	- For laptops/smaller spaces
+- Serial presence detect (SPD)
+	- Stores info about RAM stick
+	- Can be read by tools like CPU-Z

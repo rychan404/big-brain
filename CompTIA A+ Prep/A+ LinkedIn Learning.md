@@ -303,3 +303,10 @@ MT/s = mega transfers per second (not clicks of clock
 	- Part of hard drive that thinks it's RAM
 - dir /ah
 	- Command that shows everything hidden
+
+### Installing & Troubleshooting RAM
+
+- Review hardware & software tech requirements before choosing RAM
+- RAM sticks have gen-specific notches that line up w/ appropriate spot on motherboard
+- Poorly seated RAM is often main cause of non-functional RAM
+

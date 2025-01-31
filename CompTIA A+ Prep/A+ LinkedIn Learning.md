@@ -169,3 +169,19 @@
 	- Save space
 - CPU-Z
 	- Overview of hardware
+
+### 32-Bit vs. 64 Bit Computing
+
+- x86 (32 bit) & x64 (64 bit)
+	- Amount of data CPU can handle at once
+	- Can handle 2^32 or 2^64 bits of info
+
+| Instruction Set Architecture (ISA) | Support 32-bit apps? | Support 64-bit apps? |
+| ---------------------------------- | -------------------- | -------------------- |
+| x86                                | Yes                  | No                   |
+| x86-64                             | Yes                  | Yes                  |
+| x64 (x86-x64)                      | No                   | Yes                  |
+- Intel Architecture, 32-bit (IA-32)
+	- x86 based system
+- x64 systems offer greater data handling, improved graphics performance & better security
+

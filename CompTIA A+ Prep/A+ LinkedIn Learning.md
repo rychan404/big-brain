@@ -214,3 +214,17 @@
 	- AMD
 		- X: base clock speed is higher
 		- G: includes integrated graphics
+
+### CPU Cooling
+
+- Overheating
+- Intermittent shutdown
+- Heat sink
+	- Metal fins & pipes to passively transfer heat
+- Fans & radiators
+	- Various sizes
+- Thermal paste & pads
+	- Fill in CPU gaps
+	- Provide better thermal conductivity b/w CPU & heat sink
+- Liquid cooling
+	- Higher thermal transfer capabilities than air-cooling

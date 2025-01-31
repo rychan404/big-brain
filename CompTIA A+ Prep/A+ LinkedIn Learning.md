@@ -291,3 +291,15 @@ MT/s = mega transfers per second (not clicks of clock
 - Serial presence detect (SPD)
 	- Stores info about RAM stick
 	- Can be read by tools like CPU-Z
+
+### Virtual Memory
+
+- Virtual memory/virtual RAM
+	- Portion of mass storage that acts as memory
+	- Only used when physical memory is exhausted (out of memory errors)
+	- Operating systems have tools to adjust VRAM use (usually automatic)
+	- Swap file = virtual memory
+- Paging file
+	- Part of hard drive that thinks it's RAM
+- dir /ah
+	- Command that shows everything hidden

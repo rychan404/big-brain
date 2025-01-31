@@ -240,3 +240,32 @@
 - Troubleshoot non-functional CPU
 	- Check connections
 	- Make sure fan, heat sink, & CPU are sealed properly
+
+## RAM
+
+### RAM Technology
+
+- Different motherboards support specific RAM tech
+- Measure speeds using DDR or PC ratings
+- Synchronous Dynamic Random Access Memory (SDRAM)
+- Double Data Rate (DDR) SDRAM
+- Double Data Rate 2 (DDR2)
+- Double Data Rate 3 (DDR3)
+- Double Data Rate 4 (DDR4)
+- Nomenclature
+	- DDR#-speed & PC#-rating
+	- Multiply DDR speed by 8 to get PC speed
+
+DDR & DDR2 speeds
+
+![[Pasted image 20250131155513.png]]
+
+DDR3 speeds
+
+![[Pasted image 20250131155558.png]]
+
+DDR4 speeds
+
+![[Pasted image 20250131155639.png]]
+MT/s = mega transfers per second (not clicks of clock
+

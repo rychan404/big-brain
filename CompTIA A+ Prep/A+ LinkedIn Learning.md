@@ -120,3 +120,26 @@
 - Laptops, mobile devices & Internet of Things (IoT) are computers
 	- Raspberry Pi
 		- Tiny computer
+
+## CPUs
+
+### What is a CPU?
+
+- Central Processing Unit
+	- Powerful calculator that processes commands
+- Machine language of CPU
+	- Different binary patterns (0's & 1's) on code book represent different functions
+- Registers
+	- Storage areas w/ binary to perform computations
+	- AX, BX, CX, DX, etc.
+- Oldest CPU (Intel 8088 code)
+- CPU clock
+	- Tell CPU to do something
+	- Requires it to be activated multiple times to zero out functions
+- Pipeline/core
+	- Different functions running simultaneously 
+	- Optimize processing of commands
+	- Ex: Prefetch sends different commands to specialized functions
+		- Integer math
+		- Long numbers
+		- Cache (send to other places)

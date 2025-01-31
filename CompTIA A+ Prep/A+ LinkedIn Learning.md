@@ -185,3 +185,12 @@
 	- x86 based system
 - x64 systems offer greater data handling, improved graphics performance & better security
 
+### Choosing the Right CPU
+
+- What type of system?
+	- Laptop CPUs help w/ power consumption & battery usage
+- What is primary use of the computer?
+	- Intensive tasks (3D gaming & video editing) benefit from multi-core CPUs
+	- Some CPUs are unlocked & can be overclocked
+- How long do you want the system to last?
+

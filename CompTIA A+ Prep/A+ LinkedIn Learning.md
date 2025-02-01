@@ -322,4 +322,17 @@ MT/s = mega transfers per second (not clicks of clock
 - Power-On Self-Test (POST) built into firmware
 - System Setup (CMOS) part of firmware
 
+### Power-On Self-Test (POST)
+
+- Goes through internal diagnostic of motherboard (self check)
+- POST beep codes
+	- Tells you if error in diagnostic
+	- Ex: missing video card, "no RAM" (beeps continuously until powering it off)
+- POST display (text) codes on screen
+- POST card
+	- Hexadecimal two-digit read out
+	- Motherboard book w/ codes that represents an error
+	- Only when booting up
+	- Tests "dead" computers
+
 

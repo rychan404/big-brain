@@ -102,11 +102,16 @@ my_list = ['larch', 1, True, 1]
 my_list.remove(1)
 print(my_list) # Output: ['larch', True, 1]
 ```
-
 ## Tuples
 
 - like lists but immutable (unable to be changed)
 - ex: `my_tuple = ('larch', 1, True)`
+- tuples can be unpacked (elements contained can be assigned to vars)
+
+```python
+spam = ('lemon', 'curry')
+item1, item2 = spam
+```
 
 ## Dictionaries
 
@@ -184,3 +189,13 @@ dictionary comprehension
 - similar to list comprehension, but saves the memory
 - list comprehension deletes old list, but generator expressions save it
 - uses parentheses instead of brackets
+
+`enumerate(iterable)`
+- takes an iterable & returns enumerate object that is iterable
+- provides count starting at 0 & value of iterable
+
+```python
+iterable = ['a', 'b', 'c']
+for i, j in enumerate(iterable):
+    print(i, j) # Output: 0, a | 1, b | 2, c
+```

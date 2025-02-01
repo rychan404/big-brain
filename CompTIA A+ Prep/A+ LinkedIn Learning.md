@@ -351,4 +351,16 @@ MT/s = mega transfers per second (not clicks of clock
 	- CPU frequencies
 	- RAM timings
 	- Flashing BIOS
-		- Update BIOS
+
+### Troubleshooting Firmware
+
+- Programmable Read-Only Memory (PROM)
+- Single flash read-only memory (ROM) chip
+- Real-time Clock (RTC)
+	- Keeps system time w/o external power
+- CMOS battery
+	- Bad battery = time is off
+	- Anything won't be saved
+- System setup allows for changes (exit w/o saving)
+- Reset system setup to defaults
+- Flashing ROM updates firmware on flash chip

@@ -310,3 +310,16 @@ MT/s = mega transfers per second (not clicks of clock
 - RAM sticks have gen-specific notches that line up w/ appropriate spot on motherboard
 - Poorly seated RAM is often main cause of non-functional RAM
 
+## Firmware
+
+### What is BIOS?
+
+- Basic input/output services (BIOS)
+	- Tiny little chip that talks to hardware
+	- BIOS programs are code that enables interaction w/ motherboard before booting OS
+	- Stored in nonvolatile media (firmware)
+- Modern motherboards come with backup BIOS chip
+- Power-On Self-Test (POST) built into firmware
+- System Setup (CMOS) part of firmware
+
+

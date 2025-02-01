@@ -335,4 +335,20 @@ MT/s = mega transfers per second (not clicks of clock
 	- Only when booting up
 	- Tests "dead" computers
 
+### System Setup
 
+- Unified Extensible Firmware Interface (UEFI)
+	- Replaces traditional 16-bit BIOS in modern systems
+- System setup
+	- Enables custom info about changeable devices
+- Settings
+	- Boot password
+		- Ability to put passwords on computer
+		- Administrator: password for BIOS
+		- User: need password to boot
+	- USB permissions
+	- Boot options
+	- CPU frequencies
+	- RAM timings
+	- Flashing BIOS
+		- Update BIOS

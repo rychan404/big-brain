@@ -32,3 +32,6 @@ Dot notation to access instance variable
 ```python
 print(gameboard.board)
 ```
+
+`__str__` method
+- modify what's printed when object is printed

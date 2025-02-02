@@ -20,6 +20,7 @@ not
 // # integer division (quotient of division rounded down to nearest int)
 pass # placeholder for future code
 continue # skip current loop iteration & move on to next one
+name := val # assign variables in middle of expression (assigns & evaluates at once)
 ```
 
 ### Escape Characters

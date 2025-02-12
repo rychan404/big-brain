@@ -75,7 +75,7 @@ https://dcc.umd.edu/about/admissions/
 - Didn't realize is an advantage/intrigues you?
 	- Discussion based classes (shy in participation)
 		- Feels more comfortable
-	- Philosophy, linguistics, interesting classes that aren't design
+	- Philosophy, linzguistics, interesting classes that aren't design
 
 ### Questions from People
 

@@ -1,4 +1,4 @@
-[[- FCC Python]]
+	[[- FCC Python]]
 ## Strings
 
 ```python
@@ -184,6 +184,17 @@ dictionary comprehension
 
 `dict.get(key, default_value)`
 - retrieve value associated w/ key
+
+Unpack dictionary w/ `**`
+
+```python
+def spam(a, b):
+    return a + b
+
+my_dict = {a: 11, b: 4}
+
+spam(**my_dict) # 15
+```
 ## Generator Expressions
 
 - similar to list comprehension, but saves the memory

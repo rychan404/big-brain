@@ -38,6 +38,5 @@ type('foo') # returns <class 'str'>
 `min(1, 2, 3)`
 - returns smallest input value
 
-
-
-
+- Annotate variable
+	- `variable: <data type> = value` or `variable: <data type>`

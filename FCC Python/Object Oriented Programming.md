@@ -119,6 +119,10 @@ class BinarySearchTree:
 `__ge__` method
 - change what happens by default when 2 objects are compared w/ >=
 
+`__init_subclass__` method
+- defined class is subclassed & enables customizability to child classes
+- takes parameter cls (class) - new child class
+
 ## Inheritance
 
 Example
@@ -164,4 +168,37 @@ v1 = R2Vector(x=2, y=3)
 print(v1.norm())
 print(v1)
 v2 = R3Vector(x=2, y=2, z=3)
+```
+
+## Interfaces
+
+- Blueprint for a class
+- Set of methods & properties a class should implement
+- Define using abc module - `import abc`
+	- Abstract base classes
+	- Turn regular class to abstract - acts as blueprint for concrete classes
+	- `@abstractmethod` decorator
+		- modify behavior of function
+
+```python
+@spam
+def foo():
+    pass
+```
+
+```python
+from abc import ABC
+
+class Equation(ABC):
+    def solve(self):
+        pass
+
+    def analyze(self):
+        pass
+        
+class LinearEquation(Equation):
+    pass
+
+eq = Equation()
+lin_eq = LinearEquation()
 ```

@@ -101,6 +101,24 @@ class BinarySearchTree:
 `__mul__` method
 - change what happens by default when 2 objects are multiplied w/ *
 
+`__eq__` method
+- change what happens by default when 2 objects are compared w/ ==
+
+`__ne__` method
+- change what happens by default when 2 objects are compared w/ !=
+
+`__lt__` method
+- change what happens by default when 2 objects are compared w/ <
+
+`__gt__` method
+- change what happens by default when 2 objects are compared w/ >
+
+`__le__` method
+- change what happens by default when 2 objects are compared w/ <=
+
+`__ge__` method
+- change what happens by default when 2 objects are compared w/ >=
+
 ## Inheritance
 
 Example

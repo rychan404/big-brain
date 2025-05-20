@@ -1,4 +1,4 @@
-[[- FCC Python]]
+ [[- FCC Python]]
 ## Defining & Calling Functions
 
 `def function_name():`

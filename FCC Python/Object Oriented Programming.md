@@ -123,6 +123,15 @@ class BinarySearchTree:
 - defined class is subclassed & enables customizability to child classes
 - takes parameter cls (class) - new child class
 
+`hasattr()`
+- check if object has specific attribute
+- returns True or False
+
+`isinstance()`
+- returns boolean
+- obj (1st argument) is instance of class passed on 2nd argument
+- ex: `isinstance(7, int) # True`
+
 ## Inheritance
 
 Example

@@ -1,4 +1,4 @@
-	[[- FCC Python]]
+[[- FCC Python]]
 ## Strings
 
 ```python

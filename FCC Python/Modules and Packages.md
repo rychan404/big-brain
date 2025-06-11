@@ -48,6 +48,41 @@ re
 `re.findall(pattern, '')`
 - same as `re.search('')` but all occurrences
 
+`re.sub(pattern, replacement, string)`
+- replace text inside string based on regex pattern
+- arguments: 
+	- regex pattern to match
+	- replacement
+	- string you want to perform replacement
+
+```python
+verse = 'Always look on the bright side of life'
+spam = re.sub('bright', 'spam', verse)
+spam == 'Always look on the spam side of life' # True
+```
+
+- Lookaround: assertion that matches pattern w/o consuming characters in string
+	- Lookbehind (positive or negative)
+		- `?<=... and ?<!...` (respectively)
+	- Lookahead (positive or negative)
+		- `?=... and ?!...` (respectively)
+		- match pattern if followed by certain sequence of chars
+
+```python
+# Lookbehind
+
+spam = 'black back bat'
+re.sub('(?<=l)a', 'o', spam) == 'block back bat' # True (match 'a' char only preceded by 'l') - positive
+re.sub('(?<!l)a', 'o', spam) == 'black bock bot' # True (match 'a' char if not preceded by 'l') - negative
+```
+
+```python
+# Lookahead
+
+spam = 'black back bat'
+re.sub('a(?=t)', 'o', spam) == 'black back bot' # True (match 'a' char only when followed by a 't') - positive
+re.sub('a(?!t)', 'o', spam) == 'block bock bat' # True (match 'a' char if not followed by a 't') - negative
+```
 ### Char Class
 
 - matches 1 char specified b/w brackets

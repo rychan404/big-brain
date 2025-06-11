@@ -10,6 +10,15 @@ f-strings
 - interpolate values in str
 - placeholders that's replaced by values
 - ex: `print(f'hi {name}) # same as 'hi ' + name`
+- control alignment (< - left, > - right, ^ - center) & number representing width
+- ex: `'f{"Hello World":>20}'`
+	- right-aligned text arranged in space of 20 chars
+- fill option for spaces (b/w colon & alignment)
+- convert content of replacement field (curly braces) into string using `!s`
+	- ex: `f'{obj!s}' == f'{str(obj)}'`
+- specific precision in numerical data `.nf`
+	- n = number of decimal digits to display
+	- ex: `f'x1 = {results[0]:+.3f}'`
 
 `str[index]`
 - access char at index

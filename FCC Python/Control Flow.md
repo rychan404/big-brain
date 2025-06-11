@@ -22,3 +22,26 @@ Difference between `is` and `==`
 - use _ as a placeholder
 
 `while condition:`
+
+## Structural Pattern Matching
+
+- enables matching pattern w/ subject value
+
+```python
+match value:
+    case x:
+        <code>
+    case y:
+        <code>
+```
+
+- enables verification of subject having specific structure
+- binds names in pattern to elements of subject
+
+```python
+match my_list:
+    case [a]:
+        print(a)
+    case [a, b]:
+        print(a, b)
+```

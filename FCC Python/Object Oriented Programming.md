@@ -224,3 +224,34 @@ class LinearEquation(Equation):
 eq = Equation()
 lin_eq = LinearEquation()
 ```
+
+## Getters
+
+- Get values from outside
+- Define w/ `@property`
+
+```python
+class Nest:
+    ...
+    @property
+    def number_of_eggs(self):
+        return self.__number_of_eggs
+
+n = Nest()
+print(n.number_of_eggs)
+```
+
+## Setters
+
+- Set values indirectly
+- Define w/ `@method.setter`
+
+```python
+class Nest:
+    @number_of_eggs.setter
+    def number_of_eggs(self, new_value):
+        self.__number_of_eggs = new_value
+
+nest = Nest()
+nest.number_of_eggs = 12
+```

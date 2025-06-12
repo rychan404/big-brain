@@ -116,7 +116,7 @@ print(my_list) # Output: ['larch', True, 1]
 - like lists but immutable (unable to be changed)
 - ex: `my_tuple = ('larch', 1, True)`
 - tuples can be unpacked (elements contained can be assigned to vars)
-- 
+
 ```python
 spam = ('lemon', 'curry')
 item1, item2 = spam

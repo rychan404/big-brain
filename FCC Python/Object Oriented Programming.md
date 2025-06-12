@@ -132,6 +132,19 @@ class BinarySearchTree:
 - obj (1st argument) is instance of class passed on 2nd argument
 - ex: `isinstance(7, int) # True`
 
+`__slots__`
+- assigning sequence of strings restricts creation of attributes to only sequence
+- prevent `__dict__`creation
+
+```python
+class Projectile:
+    __slots__ = ('__speed', '__height', '__angle')
+    def __init__(self, speed, height, angle):
+        self.__speed = speed
+        self.__height = height
+        self.__angle = math.radians(angle)
+```
+
 ## Inheritance
 
 Example

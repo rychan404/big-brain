@@ -1,4 +1,4 @@
-[[- FCC Python]]
+ [[- FCC Python]]
 ## python is in `snake_case`
 
 ## `# comment`

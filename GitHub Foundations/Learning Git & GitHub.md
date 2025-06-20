@@ -22,7 +22,7 @@
 	- Working copy (independently make changes to code)
 	- Push/Pull to/from main repo
 
-## What is Git?
+### What is Git?
 
 - Version control
 - Time machine
@@ -30,7 +30,7 @@
 - Multiverse (branches)
 - Synchronize (merging)
 
-## Setting up Git
+### Setting up Git
 
 - Git Config
 	- `git config --global user.name "Your Name"`
@@ -52,4 +52,59 @@ git commit -m "First Commit"
 	- Staging: queue changes before committing
 	- Commit: new log entry w/ new hash created
 - File States
-	- Tracked: previous snapshot
+	- Tracked: previous snapshot (commit you did)
+		- Unmodified: files haven't changed
+		- Modified: files have been changed
+		- Staged
+	- Untracked
+	- View status by `git status`
+- Restoring Files
+```
+git restore README.md
+# git restore .
+# git checkout .
+# git restore --staged . (move out of staging)
+# git restore -S .
+```
+
+### Ignoring Files
+
+- Why Ignore Files?
+	- Sensitive info
+	- Personal notes
+- Use .gitignore
+```
+.DS_Store
+.vscode/
+autentication.js
+node_modules
+notes/
+**/*-todo.md
+```
+- Global Ignore File
+	- Across all projects
+	- `git config --global core.excludesfile [file]`
+- Clearing the cache
+	- `git rm -r --cached .`
+
+### Deleting & renaming files
+
+- Deleting
+```
+# Delete file from file system
+git rm file # (already stages change)
+```
+- Renaming
+```
+# Rename files from file system (records as deletion & adding a new file)
+git mv name new_name # (records as renamed & stages)
+```
+
+### Differences
+
+- `git diff`
+	- Shows difference b/w 2 files (modified vs. commits)
+- `git log`
+	- `git log --oneline`
+		- Commits in order
+		- Shows them all in single line

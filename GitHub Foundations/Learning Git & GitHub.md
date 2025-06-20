@@ -35,4 +35,21 @@
 - Git Config
 	- `git config --global user.name "Your Name"`
 	- `git config --global user.email "Your Email"`
-- 
+- Staging Files
+```
+git add FILENAME
+# git add -A
+# git add .
+git commit -m "First Commit"
+```
+
+### Understanding Git environments
+
+- Git Information `git log`
+	- Hash (unique ID), branch, author, email, date & commit message
+- Git Environments
+	- Working: files from last commit
+	- Staging: queue changes before committing
+	- Commit: new log entry w/ new hash created
+- File States
+	- Tracked: previous snapshot

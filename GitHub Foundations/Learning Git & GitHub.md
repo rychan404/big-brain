@@ -177,3 +177,38 @@ git clean -n # dry run
 git clean -d # directories
 git clean -f # force
 ```
+
+
+## Working with GitHub
+
+### What is GitHub?
+
+- Cloud repository
+- Collaborative development
+- Project management
+Learn how to...
+- Set up remote
+- Push changes
+- Fetch/pull
+
+### Pushing to GitHub
+
+- Remotes
+```
+git remote add NAME URL
+# git remote remove NAME
+# git rename OLDNAME NEWNAME
+# git remote -v
+```
+- Git Push
+```
+git push REMOTE BRANCH
+# git push --set-upstream-to origin main
+git push -u origin main # --set-upstream
+# git push --all
+# git branch --set-upstream-to <origin/remote-branch>
+```
+
+### GitHub options
+
+- 

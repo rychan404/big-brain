@@ -108,3 +108,72 @@ git mv name new_name # (records as renamed & stages)
 	- `git log --oneline`
 		- Commits in order
 		- Shows them all in single line
+
+### Changing history
+
+- Amending
+```
+git commit --amend
+# git commit --ammend -m "New commit message" (modify message)
+# git commit --amend --no-edit (uses message as last commit)
+```
+- Reset
+	- Go back to previous commit
+	- `git reset [hash]`
+	- `git reset --hard [hash]`
+		- Deletes all commits before specified hash
+		- Gets rid of changes as well
+- Rebasing
+	- Take commits of 1 branch & apply to another
+```
+git rebase <branch>/<commit>
+# git rebase --interactive <branch>/<commit>
+# git rebase -i HEAD-# (move back a certain number of commits)
+# git rebase -i --root (all commits)
+```
+
+### Branches
+
+- Looking at Branches
+	- `git branch`
+- Copying a branch
+```
+git switch -c NAME
+# git checkout -b NAME
+```
+- Merging
+	- Merge to main by switching to main `git switch main` & merging from there
+	- `git merge <branch>`
+- Deleting a branch
+```
+git branch --delete NAME
+# git branch -d NAME
+# git branch -D NAME
+```
+- Git Flow
+	- Feature/fix branch
+	- Make changes
+	- Merge to master
+	- Delete old branch
+
+### Merge conflicts
+
+- Conflicts happen when merging 2 branches, u & someone else made changes to same file
+
+### **(Extra)** Git stash & clean
+
+- Stashing
+	- Put away code temporarily
+```
+git stash
+# git stash list
+# git stash apply (get item from stash)
+# git stash pop (remove stash)
+```
+- Cleaning
+	- Remove all on-track files & directories from branch
+```
+git clean -n # dry run
+git clean -d # directories
+git clean -f # force
+```

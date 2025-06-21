@@ -291,3 +291,28 @@ https://www.linkedin.com
 - Code
 	- 2 ticks for one line code
 	- 3 ticks for multiline code
+
+### GitHub Markdown additions
+
+- Footnotes
+```
+This is a footnote[^1]. Another footnote[^2]
+
+[^1]: My reference
+[^2]: Another footnote
+```
+- Tables
+```
+| Left  | Center | Right   |
+| ----  | :----: | ------: |
+| One   | Two    | $1.00   |
+| Three | Four   | $120.00 |
+| Five  | Six    | $.99    |
+```
+- Task List
+```
+- [x] First
+	- [x] One
+	- [ ] Two
+- [ ] Second
+```

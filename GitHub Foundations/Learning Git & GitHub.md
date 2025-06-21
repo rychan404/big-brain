@@ -223,3 +223,71 @@ git push -u origin main # --set-upstream
 	- Merge process
 	- Review conflicts
 	- Delete feature branch
+
+### Learning Markdown
+
+- Syntax: Headings
+```
+# Headline Level 1
+Also Headline Level 1
+=====================
+
+## Headline Level 2
+Also Headline Level 2
+---------------------
+
+### Headline Level 3
+#### Headline Level 4
+##### Headline Level 5
+###### Headline Level 6
+```
+- Special Styles
+```
+**bold**
+__bold__
+
+*italic*
+_italic_
+
+~~strike through~~
+
+> Quotation
+
+--- Horizontal Rule
+	*** Asteriks
+	___ Underscores
+```
+- Lists
+```
+- Hyphens
+* Asteriks
++ Plus sign
+
+1. First ordered lsit item
+	* Unordered sub-list
+2. Numbers don't really matter
+```
+- Links
+```
+https://www.linkedin.com
+[Website](https://www.linkedin.com "LinkedIn")
+
+[LinkedIn]
+
+[Learning][1]
+[linkedin]: https://www.linkedin.com
+[1]: https://www.linkedin.com/learning
+```
+- Images
+```
+![Tomolor](https//pixelprowess.com/i/stargazers/tomolor.png)
+
+![Tomolor]
+[Tomolor]: https//pixelprowess.com/i/stargazers/tomolor.png
+
+# Image link
+[![Tomolor](https//pixelprowess.com/i/stargazers/tomolor.png)](https://raybo.org)
+```
+- Code
+	- 2 ticks for one line code
+	- 3 ticks for multiline code

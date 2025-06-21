@@ -209,6 +209,17 @@ git push -u origin main # --set-upstream
 # git branch --set-upstream-to <origin/remote-branch>
 ```
 
-### GitHub options
+### Understanding GitHub Flow
 
-- 
+- GitHub Flow
+	- Main branch
+	- Feature branch
+	- Commit & push
+- Creating pull requests (move code from feature back to main)
+	- Ask for Merge
+	- Review requests
+	- Feedback & comments
+- Merging Pull Requests
+	- Merge process
+	- Review conflicts
+	- Delete feature branch
